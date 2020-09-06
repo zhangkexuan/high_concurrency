@@ -21,5 +21,4 @@ public class T05_exWhatIsOut implements Runnable {
 			new Thread(t, "THREAD" + i).start();
 		}
 	}
-	
 }

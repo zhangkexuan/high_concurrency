@@ -1,4 +1,4 @@
-#Synchronized(object)
+# Synchronized(object)
 
 - synchronized是用来锁对象的
 
