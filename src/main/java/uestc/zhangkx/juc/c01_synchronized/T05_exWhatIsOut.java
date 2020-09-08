@@ -1,5 +1,3 @@
-
-
 package uestc.zhangkx.juc.c01_synchronized;
 /**
  * 分析一下这个程序的输出
