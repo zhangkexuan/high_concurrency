@@ -1,8 +1,13 @@
-package uestc.zhangkx.juc.c_020;
+package uestc.zhangkx.juc.c05_reentrantLockAndTools;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.LockSupport;
 
+/**
+ * Support中最关键的是park()和unpark()方法
+ *
+ * @author zhangkx
+ */
 public class T13_TestLockSupport {
     public static void main(String[] args) {
         Thread t = new Thread(()->{

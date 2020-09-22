@@ -1,9 +1,14 @@
-package uestc.zhangkx.juc.c_020;
+package uestc.zhangkx.juc.c05_reentrantLockAndTools;
 
 import java.util.Random;
 import java.util.concurrent.Phaser;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 阶段提交： 可以看做循环栅栏的升级，对于cyclicbarrier来说，每阶段都是重复的提交。但对于phaser来说，每阶段可以设置不同的提交
+ *
+ * @author zhangkx
+ */
 public class T08_TestPhaser {
     static Random r = new Random();
     static MarriagePhaser phaser = new MarriagePhaser();

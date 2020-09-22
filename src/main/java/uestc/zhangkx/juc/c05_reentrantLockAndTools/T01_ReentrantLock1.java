@@ -1,4 +1,4 @@
-package uestc.zhangkx.juc.c_020;
+package uestc.zhangkx.juc.c05_reentrantLockAndTools;
 
 import java.util.concurrent.TimeUnit;
 
@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
  * reentrantlock用于替代synchronized
  * 本例中由于m1锁定this,只有m1执行完毕的时候,m2才能执行
  * 这里是复习synchronized最原始的语义
+ *
  * @author zhangkx
  */
 public class T01_ReentrantLock1 {

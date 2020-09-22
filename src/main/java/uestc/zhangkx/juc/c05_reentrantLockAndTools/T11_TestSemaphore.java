@@ -1,7 +1,12 @@
-package uestc.zhangkx.juc.c_020;
+package uestc.zhangkx.juc.c05_reentrantLockAndTools;
 
 import java.util.concurrent.Semaphore;
 
+/**
+ * 信号量： Semaphore(int permits, boolean fair)得以申请信号量，之后通过s.acquire();s.release();来获取或释放
+ *
+ * @author zhangkx
+ */
 public class T11_TestSemaphore {
     public static void main(String[] args) {
         //Semaphore s = new Semaphore(2);

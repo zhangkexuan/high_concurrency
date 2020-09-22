@@ -1,5 +1,5 @@
 
-package uestc.zhangkx.juc.c_020;
+package uestc.zhangkx.juc.c05_reentrantLockAndTools;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;

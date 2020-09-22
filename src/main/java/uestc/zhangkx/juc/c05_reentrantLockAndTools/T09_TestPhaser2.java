@@ -1,4 +1,4 @@
-package uestc.zhangkx.juc.c_020;
+package uestc.zhangkx.juc.c05_reentrantLockAndTools;
 
 import java.util.Random;
 import java.util.concurrent.Phaser;
@@ -83,8 +83,6 @@ public class T09_TestPhaser2 {
         public void leave() {
             milliSleep(r.nextInt(1000));
             System.out.printf("%s Àë¿ª£¡\n", name);
-
-
             phaser.arriveAndAwaitAdvance();
         }
 

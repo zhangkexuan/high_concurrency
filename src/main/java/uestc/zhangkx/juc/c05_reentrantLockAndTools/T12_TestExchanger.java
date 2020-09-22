@@ -1,7 +1,12 @@
-package uestc.zhangkx.juc.c_020;
+package uestc.zhangkx.juc.c05_reentrantLockAndTools;
 
 import java.util.concurrent.Exchanger;
 
+/**
+ * 交换器： 可以实现两个线程之间的交换，真实使用很少
+ *
+ * @author zhangkx
+ */
 public class T12_TestExchanger {
 
     static Exchanger<String> exchanger = new Exchanger<>();
